@@ -1,17 +1,21 @@
 [
     {
-        "id": "4059565e.35e978",
-        "type": "function",
+        "id": "24654c83.22f944",
+        "type": "inject",
         "z": "3674e5bf.cfafea",
-        "name": "set payload",
-        "func": "msg.payload = msg.payload.output.text[0];\nreturn msg;",
-        "outputs": 1,
-        "noerr": 0,
-        "x": 610,
-        "y": 480,
+        "name": "Click here to Stop Recording",
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "repeat": "15",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "x": 130,
+        "y": 760,
         "wires": [
             [
-                "b239b66e.ef8a98"
+                "89605242.49d618"
             ]
         ]
     }
